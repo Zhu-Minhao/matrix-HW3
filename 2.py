@@ -1,11 +1,11 @@
 import numpy as np
 
 
-# def generate_non_singular_matrix(n):
-#     while True:
-#         A = np.random.rand(n, n)
-#         if np.linalg.det(A) != 0:
-#             return A
+def generate_non_singular_matrix(n):
+    while True:
+        A = np.random.rand(n, n)
+        if np.linalg.det(A) != 0:
+            return A
 
 
 def gram_schmidt(A):
